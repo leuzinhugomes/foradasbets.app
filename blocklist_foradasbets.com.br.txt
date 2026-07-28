@@ -1,9 +1,16 @@
 ! Title: Blocklist de Apostas - Fora das Bets
-! Description: Lista automatizada de bloqueio contra casas de apostas e cassinos (.bet)
+! Description: Lista automatizada de bloqueio contra casas de apostas, cassinos e TLDs (.bet)
 ! Website Oficial: https://foradasbets.com.br
-! Total de Regras: 604
+! Total de Regras: 612
 !----------------------------------------------------------------------
 
+||*.bet.*
+||*.bet.br^
+||*.bet^
+||*.casino.*
+||*.gamble.*
+||*.poker.*
+||*.wager.*
 ||007cassino.com.br^
 ||013bet.app.br^
 ||023bet.net.br^
@@ -144,6 +151,7 @@
 ||bb22betvip.com.br^
 ||beijo777app.com.br^
 ||bestpoker.com.br^
+||bet.br^
 ||bet03pg.com.br^
 ||bet1181app.com.br^
 ||bet11br.com.br^
